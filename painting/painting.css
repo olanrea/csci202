@@ -1,0 +1,108 @@
+
+/* Grid */
+.grid-container {
+    margin: 3rem 4rem;
+    padding: 5rem 0;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 4px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5rem 5rem 5rem 5rem 5rem;
+    grid-row-gap: 100px;
+    justify-items: center;
+}
+
+
+/* Boxes */
+.box1 {
+    width: 10px;
+    height: 90px;
+    background-color: gray;
+    transform: rotate(-40deg);
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(217, 175, 91); /*orange*/
+    transform: rotate(-38deg);
+    margin-top: 1rem;
+}
+
+.box3 {
+    width: 90px;
+    height: 10px;
+    background-color: gray;
+}
+
+.box4 {
+    width: 30px;
+    height: 70px;
+    background-color: rgb(231, 59, 59); /*red*/
+    transform: rotate(50deg);
+    justify-self: end;
+    align-self: center;
+    margin-top: 2rem;
+    margin-right: 6rem;
+}
+
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(46, 115, 208); /*blue?*/
+    transform: rotate(-40deg);
+    grid-column: 3;
+    justify-self: start;  
+    margin-top: 2rem;
+}
+
+.box6 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(46, 115, 208); /*blue?*/
+    transform: rotate(-40deg);
+    margin-top:8rem;
+    margin-left: 14rem;
+}
+
+.box7 {
+    width: 10px;
+    height: 90px;
+    transform: rotate(-40deg);
+    background-color: gray;
+}
+
+.box8 {
+    width: 30px;
+    height: 60px;
+    transform: rotate(50deg);
+    justify-self: end;
+    align-self: center;
+    margin-top: 15rem;
+    margin-right: 15rem;
+    background-color: rgb(217, 175, 91); /*orange*/
+}
+
+.box9 {
+    width: 90px;
+    height: 10px;
+    background-color: gray;
+    margin-top: 15rem;
+}
+
+.box10 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(231, 59, 59); /*red*/
+    margin-top:10rem;
+}
+
+.box11 {
+    width: 10px;
+    height: 90px;
+    transform: rotate(-40deg);
+    background-color: gray;
+    margin-top:10rem;
+}
