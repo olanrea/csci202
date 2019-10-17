@@ -1,0 +1,57 @@
+.navbar{
+    background:grey;
+}
+
+.nav-link,
+.navbar-brand{
+    color: white;
+    cursor: pointer;
+}
+
+.nav-link{
+    margin-right: 1em !important;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+/* Footer */
+footer {
+    background:#282828;
+    color: #fff;
+    padding: 1rem 0;
+}
+footer p {
+    margin: 0;
+}
+
+
+
+.navbar-toggle{
+    border: none;
+    background-color: grey;
+}
+
+.card {
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+    padding:1rem;
+}
+
+/* body{
+    background-color: green;
+}
+@media screen and (max-width:760px){
+    body{
+        background-color: blue;
+    }
+}
+@media (max-width:480px){
+    body{
+        background-color: red;
+    }
+} */
+
