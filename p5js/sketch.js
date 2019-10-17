@@ -25,7 +25,7 @@ function setup() {
 function draw() {
   stroke(c1, c2, c3);
   if (mouseIsPressed === true) {
-    circle(mouseX, mouseY, pmouseX, pmouseY);
+    line(mouseX, mouseY, pmouseX, pmouseY);
     // circle(mouseX, mouseY, pmouseX, pmouseY);
    }
 }
