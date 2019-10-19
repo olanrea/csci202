@@ -5,12 +5,6 @@
 
 
 // setting up the canvas
-img;
-function preload(){
-  img=loadImage ('../mobile site/images/logramps1.jpg');
-}
-
-
 // function setup() 
 //   createCanvas(displayWidth, displayHeight);
 //   strokeWeight(15);
@@ -54,19 +48,27 @@ function preload(){
 //  c3 = random(0, 255);
 // }
 
+
+// img;
+// function preload(){
+//   img=loadImage ('../mobile site/images/logramps1.jpg');
+// }
+
+// GOES IN SETUP
+//   img=createImage(100, 100);
+//   img.loadPixles('logramps1.jpg')
+//   createCanvas(100,100);
+//   background(0);
+
+//   loadImage('../mobile site/images/logramps1.jpg', img=> {
+//     image(img, 0, 0);
+//   });
+// }
+
 function setup() {
   createCanvas(2000, 2000);
   strokeWeight(10);
   stroke(0);
-
-  img=createImage(100, 100);
-  img.loadPixles('logramps1.jpg')
-  createCanvas(100,100);
-  background(0);
-
-  loadImage('../mobile site/images/logramps1.jpg', img=> {
-    image(img, 0, 0);
-  });
 }
 
 function touchMoved() {
