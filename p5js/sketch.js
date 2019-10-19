@@ -6,7 +6,7 @@ var c3; // color variable
 
 // setting up the canvas
 function setup() {
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(375, 667);
   strokeWeight(15);
   background(250);
   c1 = 200;
