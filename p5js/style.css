@@ -7,10 +7,10 @@ html, body {
     /* background-image: url("../mobile site/images/homeBackground.jpg") */
   }
 
-  @media only screen and (max-width:768px){
+  @media only screen and (max-width:375px){
     body{
       height: 100%;
-      width: 100%;
+      width: 200%;
       overflow: hidden;
     }
   }
