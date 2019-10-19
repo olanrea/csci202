@@ -39,7 +39,7 @@
 // }
 
 function setup() {
-  createCanvas(1000, 1000);
+  createCanvas(1000, 1500);
   strokeWeight(10);
   stroke(0);
 }
