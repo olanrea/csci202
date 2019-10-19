@@ -41,6 +41,11 @@ footer p {
     padding:1rem;
 }
 
+audio{
+    display: block;
+    margin-top: 1em;
+}
+
 /* body{
     background-color: green;
 }
@@ -55,3 +60,8 @@ footer p {
     }
 } */
 
+@media only screen and (orientation: landscape/portrait) {
+    body{
+        
+    }
+}
