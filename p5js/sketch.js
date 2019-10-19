@@ -39,7 +39,7 @@
 // }
 
 function setup() {
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(window.screen.width, window.screen.height);
   strokeWeight(10);
   stroke(0);
 }
