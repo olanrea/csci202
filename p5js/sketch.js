@@ -6,7 +6,6 @@
 
 // // setting up the canvas
 // function setup() {
-//   pixelDensity(1);
 //   createCanvas(375, 667);
 //   strokeWeight(15);
 //   background(250);
@@ -41,9 +40,8 @@
 //  c3 = random(0, 255);
 // }
 
-
 function setup() {
-  createCanvas(window.screen.width, window.screen.height);
+  createCanvas(2000, 2000);
   strokeWeight(10);
   stroke(0);
 }
