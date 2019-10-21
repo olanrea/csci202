@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bootstrap | Lab3</title>
+    <title>Mobile Site | Lab3</title>
     <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -12,23 +12,23 @@
 
 <body>
     <nav class="navbar navbar-expand-md">
-        <a class="navbar-brand" href="#">Logo</a>
+        <a class="navbar-brand" href="index.html">Log Ramps</a>
         <button class="navbar-toggle navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="main-navigation">
             <ul class="navbar-nav">
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="about.html">About</a>
+                </li> -->
+                <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                         <a class="nav-link" href="sounds.html">Sounds</a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="draw.html">Draw!</a>
-                </li>
-                <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="draw.html">Draw</a>
                 </li>
             </ul>
         </div>
@@ -48,17 +48,39 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-12">
-            <h3 class="feature-title">lorem ipsum</h3>
-            <img src="images/homeBackground.jpg" class="img-fluid">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error excepturi iusto sed qui, dolores ad doloremque debitis aliquam culpa dolore, quod asperiores officiis facere quia? Eveniet doloribus itaque minima consequuntur?</p>
+            <h3 class="feature-title">Meet the Artist</h3>
+            <img src="images/lloyd.jpg" class="img-fluid">
+            <p>Lloyd Hamrol, a UCLA graduate born in 1937 is the artist responsible for many works including the Log Ramps here on the WWU campus!
+                He started out teaching at several differnt Universities in California until 1979 when he decided to become a full time sculptor.
+                He is now known for his physically engaging public art pieces that inspire adventure in an outdoor space.
+            </p>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
+        <!-- <div class="col-lg-4 col-md-4 col-sm-12">
             one of three columns
-        </div>
+        </div> -->
     </div>
 </div>
 
+<!-- FORM STUFF -->
+
+<!-- <div id="writeL"></div>
+<script>
+function show() {
+    var i;
+    for(i = 10; i < window.location.search.length; i++){
+        if(window.location.search[i] != "+"){
+            document.write(document.getElementById("writeL").innerHTML = window.location.search[i]);
+        }
+        else{
+            document.write(" ");
+        }
+    }
+}
+show()
+</script> -->
+
 <!-- KINDA WORKING AUDIO -->
+
 <!-- <div data-video="hl5GYjuf95g"  
 <div data-video="hl5GYjuf95g"  
 data-autoplay="1"         
@@ -70,6 +92,7 @@ id="youtube-audio">
 
 
 <!-- AUDIO PLAYER -->
+
 <!-- <figure>
         <audio
             controls
