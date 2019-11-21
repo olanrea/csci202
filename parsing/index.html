@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+p {font-size: 120px;
+text-align: center;
+}    
+</style>
+
+<body>
+
+<p id="narrative"></p>
+
+<script>
+// declaring the variable storyworld, with json object of characters 
+var storyworld = '{"characters":[' +
+'{"name":"John","major":"Computer Science", "year":"Junior"},' +
+'{"name":"Anna","major":"Biology", "year":"Freshman" },' +
+    
+'{"name":"Tony","major":"Anthropology", "year":"Freshman" },' +
+    
+'{"name":"Malcom","major":"Engineering", "year":"Senior" },' +
+    
+'{"name":"Kyle","major":"Political Science", "year":"Sophmore" },' +
+'{"name":"Peter","major":"Journalism", "year":"Junior"}]}';
+// declaring the variable story, with a random value of 0 - 5
+var story = Math.floor(Math.random() * 5);
+var mix = Math.floor(Math.random() * 5);
+    
+obj = JSON.parse(storyworld);
+document.getElementById("narrative").innerHTML =
+obj.characters[story].name+ " is a " + obj.characters[story].year + ", majoring in " + obj.characters[mix].major + ".";
+</script>
+
+</body>
+</html>

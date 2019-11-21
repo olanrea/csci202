@@ -11,14 +11,14 @@ function startTime() {
       
       
    if (s < 20) {
-    document.getElementById("txt").style.color = "red";
-    document.body.style.backgroundImage = "url('https://media.giphy.com/media/3Hrq0z3lc9vKMGcpv3/giphy.gif')";
+    document.getElementById("txt").style.color = "pink";
+    document.body.style.backgroundImage = "url('https://media.giphy.com/media/QyJ0We4GHpjBa7PvKL/giphy.gif')";
   } else if (s < 40) {
     document.getElementById("txt").style.color = "orange";
-    document.body.style.backgroundImage = "url('https://media.giphy.com/media/4qjP6rIloYJEs/giphy.gif')";
+    document.body.style.backgroundImage = "url('https://media.giphy.com/media/VOPK1BqsMEJRS/giphy.gif')";
   } else {
-     document.getElementById("txt").style.color = "white";
-    document.body.style.backgroundImage = "url('https://media.giphy.com/media/fdXJLBMujaN1VE2U6c/giphy.gif')";
+     document.getElementById("txt").style.color = "lightblue";
+    document.body.style.backgroundImage = "url('https://media.giphy.com/media/cuPm4p4pClZVC/giphy.gif')";
   }    
       
   

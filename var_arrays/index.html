@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {font-size: 60px;
+text-align: center;
+} 
+span { color: lightsalmon;
+}
+</style>    
+</head>    
+    
+    
+<body>
+
+<p>Mary has a total of <span id = "TotalCount1"></span> items in her backpack: <span id = "granolaCount" ></span> granola bars, <span id = "pencilCount" ></span> pencils, and <span id = "bookCount" ></span> textbooks. </p> 
+
+<p> Mary eats <span>1</span> granola bar. <br> She now has <span id = "SecondGranolaCount"></span> granola bar and a total of <span id = "TotalCount" ></span>  items in her backpack.</p>
+
+
+<script>
+var granolaCount = 2;
+var pencilCount = 4;
+var bookCount = 3;
+var TotalCount = granolaCount + pencilCount + bookCount;
+document.getElementById("granolaCount").innerHTML = granolaCount;
+document.getElementById("pencilCount").innerHTML = pencilCount;
+document.getElementById("bookCount").innerHTML = bookCount;
+document.getElementById("TotalCount1").innerHTML = TotalCount;
+document.getElementById("TotalCount").innerHTML = TotalCount-1;
+document.getElementById("SecondGranolaCount").innerHTML = granolaCount - 1;
+</script>
+
+</body>
+</html>
